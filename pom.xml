@@ -4,16 +4,16 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.399</version>
+    <version>1.450</version>
     <relativePath />
   </parent>
 
   <artifactId>violations</artifactId>
-  <version>0.7.11-SNAPSHOT</version>
+  <version>0.7.15-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Jenkins Violations plugin</name>
-  <url>wiki.jenkins-ci.org/display/JENKINS/Violations</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Violations</url>
 
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/violations-plugin.git</connection>
@@ -111,15 +111,15 @@
   
   <repositories>
     <repository>
-      <id>m.g.o-public</id>
-      <url>http://maven.glassfish.org/content/groups/public/</url>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
-      <id>m.g.o-public</id>
-      <url>http://maven.glassfish.org/content/groups/public/</url>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
